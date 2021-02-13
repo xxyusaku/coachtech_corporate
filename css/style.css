@@ -255,6 +255,10 @@ select {
   padding-top: 20px;
 }
 
+.service {
+  height: auto;
+}
+
 .service-title {
   font-size: 30px;
   text-align: center;
@@ -266,7 +270,6 @@ select {
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 10%;
-  /* padding: 20px 10%; */
 }
 
 .service-cat1,
@@ -274,4 +277,85 @@ select {
 .service-cat3,
 .service-cat4 {
   width: 50%;
+}
+
+.service-cat1 img,
+.service-cat2 img,
+.service-cat3 img,
+.service-cat4 img, 
+.service-cat1 p, 
+.service-cat2 p, 
+.service-cat3 p, 
+.service-cat4 p { 
+  width: 50%;
+  height: auto;
+}
+
+.service-cat1 img,
+.service-cat3 img, 
+.service-cat1 h2,
+.service-cat3 h2,
+.service-cat1 p,
+.service-cat3 p {  
+  margin-left: 40%;
+}
+
+.service-trap {
+  height: 100px;
+  margin-top: 5%;
+}
+
+.service-trap link {
+  padding-top: 100px;
+}
+
+.service-trap a {
+  width: 100%;
+  margin-left: 40%;
+}
+
+.link {
+  background: red;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px 70px;
+  text-decoration: none;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.news {
+  height: 500px;
+  background-color: rgb(36, 36, 36);
+}
+
+.news-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.news-head h1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 20%;
+  margin-top: 100px;
+}
+
+.news-head a {
+  margin-right: 20%;
+  margin-top: 100px;
+}
+
+.news-list {
+  background-color: white;
+  margin-top: 10px;
+  width: 60%;
+  margin-left: 20%;
+  
 }
