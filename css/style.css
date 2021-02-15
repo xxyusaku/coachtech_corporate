@@ -269,7 +269,7 @@ select {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 10%;
+  width: 100%;
 }
 
 .service-cat1,
@@ -277,6 +277,18 @@ select {
 .service-cat3,
 .service-cat4 {
   width: 50%;
+}
+
+.service-cat2 .service-img,
+.service-cat4 .service-img {
+  margin-left: 30px;
+}
+
+.service-cat1 .service-img,
+.service-cat2 .service-img,
+.service-cat3 .service-img,
+.service-cat4 .service-img {
+  width: 70%;
 }
 
 .service-cat1 img,
