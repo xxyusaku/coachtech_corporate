@@ -266,50 +266,31 @@ select {
 }
 
 .service-wrap {
-  display: flex;
   justify-content: center;
+  display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  margin-top: 10px;
 }
 
-.service-cat1,
-.service-cat2,
-.service-cat3,
-.service-cat4 {
-  width: 50%;
+.service-cat,
+.service-cat1 {
+  margin: 10px 0;
 }
 
-.service-cat2 .service-img,
-.service-cat4 .service-img {
-  margin-left: 30px;
+.service-cat p,
+.service-cat1 p {
+  width: 70%;
 }
 
-.service-cat1 .service-img,
-.service-cat2 .service-img,
-.service-cat3 .service-img,
-.service-cat4 .service-img {
+.service-cat img,
+.service-cat1 img {
   width: 70%;
 }
 
 .service-cat1 img,
-.service-cat2 img,
-.service-cat3 img,
-.service-cat4 img, 
-.service-cat1 p, 
-.service-cat2 p, 
-.service-cat3 p, 
-.service-cat4 p { 
-  width: 50%;
-  height: auto;
-}
-
-.service-cat1 img,
-.service-cat3 img, 
-.service-cat1 h2,
-.service-cat3 h2,
 .service-cat1 p,
-.service-cat3 p {  
-  margin-left: 40%;
+.service-cat1 h3 {
+  margin-left: 25%;
 }
 
 .service-trap {
