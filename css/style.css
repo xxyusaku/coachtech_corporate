@@ -498,6 +498,7 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .footer-logo {
@@ -519,13 +520,25 @@ select {
 .footer-nav li {
   flex-grow: 2;
   text-align: center;
+  padding: 0 10px;
   list-style-type: none;
   justify-content: space-between;
 }
 
-.footer-nav li + li {
-  border-left: 1px solid white;
+.footer-nav li {
+  float: left;
+  list-style-type: none;
+  /* padding: 0 5%; */
 }
+
+.footer-nav li a {
+  border-right: 1px solid white;
+}
+
+.footer-nav li:last-child a {
+  border-right: none;
+}
+
 
 .footer-nav a {
   text-decoration: none;
@@ -536,7 +549,7 @@ select {
   .header {
     z-index: 50;
   }
-    
+
   .header-nav {
     display: none;
   }
@@ -555,8 +568,8 @@ select {
   #hamburger span {
     display: block;
     width: 35px;
-    height: 2px;
-    background-color: #fff;
+    height: 4px;
+    background-color: #000;
     transition: 0.8s;
   }
   #hamburger span:nth-of-type(1) {
