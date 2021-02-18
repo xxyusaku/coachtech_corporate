@@ -707,9 +707,26 @@ select {
 
   .footer-logo {
     width: 60em;
+    text-align: center;
+    align-items: center;
+    margin-right: -20%;
+    margin-bottom: 70%;
+  }
+
+  .footer-nav {
+    width: 50%;
+    margin-bottom: 20em;
+    height: 10px;
   }
 
 
+  .footer-nav ul {
+    display: inline-block;
+    margin-top: 100px;
+  }
+
   .footer-nav li {
     border-right: none;
+    font-size: smaller;
+
   }

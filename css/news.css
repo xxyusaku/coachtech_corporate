@@ -213,10 +213,9 @@ select {
 }
 
 .eyecatch {
-  width: 100%;
   background: url(../img/mv.png);
   background-size: cover;
-  padding-bottom: 15%;
+  height: 250px;
 }
 
 .eyecatch h1 {
@@ -225,4 +224,5 @@ select {
   color: white;
   font-size: 30px;
   font-weight: bold;
+  margin-right: 10%;
 }
