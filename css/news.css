@@ -180,6 +180,7 @@ select {
 .header {
   height: 70px;
   position: fixed;
+  z-index: 100;
   width: 100%;
   background-color: white;
 }
@@ -213,16 +214,17 @@ select {
 }
 
 .eyecatch {
+  height: 250px;
+  margin-bottom: 100px;
+  display: flex;
   background: url(../img/mv.png);
   background-size: cover;
-  height: 250px;
 }
 
 .eyecatch h1 {
   text-align: center;
   padding-top: 20%;
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  margin-right: 10%;
 }
