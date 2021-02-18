@@ -248,6 +248,23 @@ select {
   font-weight: bold;
 }
 
+.blog-img {
+  width: 100%;
+  background-size: cover;
+}
+
+.blog-wrap {
+  width: 70%;
+  margin-top: 10%;
+}
+
+.blog-list {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 
 
 
