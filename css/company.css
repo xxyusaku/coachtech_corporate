@@ -248,15 +248,31 @@ select {
   font-weight: bold;
 }
 
+.company {
+  margin: 5% 0;
+}
 
+.company table tr {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+}
 
+.company .company-wrap {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 70px;
+}
 
+.company td {
+  margin-left: 10%;
+  text-align: left;
+}
 
-
-
-
-
-
+.company th {
+  text-align: center;
+  padding-right: 10%;
+}
 
 
 .contact {
@@ -380,6 +396,17 @@ select {
     margin-top: 40%;
   }
 
+  .company .company-wrap {
+    width: 90%;
+  }
+
+  .company th {
+    margin-left: 5%;
+  }
+
+  .company {
+    margin-top: 60px;
+  }
 
 
 
