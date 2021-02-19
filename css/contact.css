@@ -254,21 +254,28 @@ select {
   width: 100%;
 }
 
-.company {
+.company, .name, .mail {
   width: 80%;
+  height: 30px;
+  border: 1px solid rgb(185, 185, 185);
 }
 
 .name {
   width: 80%;
+  height: 30px;
+  border: 1px solid rgb(185, 185, 185);
 }
 
 .mail {
   width: 80%;
+  height: 30px;
+  border: 1px solid rgb(185, 185, 185);
 }
 
 .msg {
   width: 80%;
   height: 200px;
+  border: 1px solid rgb(185, 185, 185);
 }
 
 .contact-list {
@@ -278,6 +285,11 @@ select {
 
 .contact-main {
   margin-top: 5%;
+}
+
+.contact-list span {
+  color: red;
+  font-size: 5px;
 }
 
   .contact-main form {
@@ -304,15 +316,6 @@ select {
     color: white;
     margin: 30px 0;
   }
-
-
-
-
-
-
-
-
-
 
 .contact {
   background-color: rgb(240, 240, 240);
@@ -435,7 +438,50 @@ select {
     margin-top: 40%;
   }
 
-  
+  .form {
+    width: 100%;
+  }
+
+  .contact-list {
+    width: 100%;
+    margin-left: -15%;
+    padding-right: 50px;
+    /* margin: 10px 0; */
+  }
+
+  .contact-list label {
+    width: 100%;
+  }
+
+  .label {
+    padding-right: 40px;
+  }
+
+  .company {
+    width: 125%;
+  }
+
+  .name {
+    width: 125%;
+  }
+
+  .mail {
+    width: 125%;
+  }
+
+  .msg {
+    width: 125%;
+  }
+
+  .button-submit {
+    width: 100%;
+  }
+
+
+  .button {
+    padding: 10px 30%;
+    width: 100%;
+  }
 
 
 
