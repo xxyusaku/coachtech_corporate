@@ -613,13 +613,19 @@ select {
   }
 
   .service-cat, .service-cat1 {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+
+  /* .service-cat, .service-cat1 {
    width: 90%; 
    padding-top: 10px;
   }
 
   .service-cat1 {
     margin-left: 5%;
-  }
+  } */
 
   .service-trap a {
     margin-left: 15%;
