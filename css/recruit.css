@@ -248,11 +248,42 @@ select {
   font-weight: bold;
 }
 
+.recruit-wrap {
+  width: 80%;
+  text-align: left;
+  margin-left: 25%;
+  margin-top: 5%;
+}
 
+.recruit-list {
+  margin: 5% 0;
+  width: 100%;
+}
 
+.recruit-title {
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  width: 60%;
+}
 
+.sub-title {
+  margin: 20px 0;
+}
 
+.recruit-date th {
+  border: 1px solid #000;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  padding: 10px 100px;
+}
 
+.recruit-date td {
+  border: 1px solid #000;
+  padding-left: 10px;
+  /* padding-right: 90px; */
+  width: 67%;
+}
 
 
 
@@ -380,11 +411,37 @@ select {
     margin-top: 40%;
   }
 
+.recruit-title h2 {
+  width: 160%;
+}
 
+.recruit {
+  width: 100%;
+}
 
+.recruit-wrap {
+  margin-top: 10%;
+}
 
+  .recruit-list {
+    margin-right: 15%;
+    margin-left: -25%;
+    width: 110%;
+    margin-top: 10%;
+  }
 
+  .recruit-date th {
+    width: 30%;
+    padding: 10px 10px;
+  }
 
+  .recruit-list h2 {
+    width: 100%;
+  }
+
+  .recruit-list td {
+    padding-right: 80px;
+  }
 
 
 
