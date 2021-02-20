@@ -411,7 +411,7 @@ select {
     text-align: center;
     width: 80%;
     margin-left: 10%;
-    margin-top: 40%;
+    margin-top: 100px;
   }
 
   
@@ -419,11 +419,6 @@ select {
     height: auto;
   }
 
-  .service-wrap {
-    width: 100%;
-    text-align: left;
-    margin-left: 5%;
-  }
 
   .service-img {
     width: 100%;
@@ -433,7 +428,6 @@ select {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    text-align: left;
   }
 
   .service-item {
