@@ -232,7 +232,7 @@ select {
 }
 
 .eyecatch {
-  height: 66vh;
+  height: 67vh;
   width: 100%;
   background: url(../img/mv.png);
   background-size: cover;
@@ -403,22 +403,21 @@ select {
   }
 
   .eyecatch {
-    height: 24em;
+    height: auto;
     background-size: cover;
   }
 
   .eyecatch h1 {
     text-align: center;
     width: 80%;
-    margin-left: 10%;
-    margin-top: 100px;
+    margin: 50% 0;
+    align-items: center;
   }
 
   
   .service {
     height: auto;
   }
-
 
   .service-img {
     width: 100%;
@@ -431,7 +430,7 @@ select {
   }
 
   .service-item {
-    margin-bottom: 100px;
+    margin: 50px 0;
   }
 
   .service-item1 {
