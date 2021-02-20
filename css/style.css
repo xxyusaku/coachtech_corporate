@@ -286,47 +286,18 @@ select {
   margin-left: 20px;
 }
 
-/* .service-cat img, .service-cat1 img {
-  width: 90%;
-} */
-
 .service-cat1 {
   margin-left: 20%;
 }
-
-/* .service-cat,
-.service-cat1 {
-  margin: 10px 0;
-}
-
-.service-cat p,
-.service-cat1 p {
-  width: 70%;
-}
-
-.service-cat img,
-.service-cat1 img {
-  width: 70%;
-}
-
-.service-cat1 img,
-.service-cat1 p,
-.service-cat1 h3 {
-  margin-left: 25%;
-} */
 
 .service-trap {
   height: 100px;
   margin-top: 5%;
 }
 
-.service-trap link {
-  padding-top: 100px;
-}
-
 .service-trap a {
-  width: 100%;
   margin-left: 40%;
+  align-items: center;
 }
 
 .link {
@@ -583,23 +554,19 @@ select {
 
   .eyecatch {
     width: 100%;
+    /* padding: auto 0; */
+  }
+
+  .eyecatch h1,
+  .eyecatch p {
+    width: 80%;
+    margin-left: 10%;
   }
 
   .eyecatch h1 {
-    position: absolute;
-    text-align: center;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 30%;
+    margin-top: 40%;
   }
 
-  .eyecatch p {
-    position: absolute;
-    text-align: center;
-    width: 70%;
-    margin-top: 110%;
-    margin-left: 15%;
-  }
 
   .header-last {
     height: 500px;
@@ -616,23 +583,19 @@ select {
   }
 
   .service-cat, .service-cat1 {
+    width: 80%;
     margin: 0 auto;
-    width: 90%;
   }
 
+.service-trap a {
+  margin: 0 15%;
+  align-items: center;
+}
 
-  /* .service-cat, .service-cat1 {
-   width: 90%; 
-   padding-top: 10px;
-  }
+.service-trap link {
+  align-items: center;
+}
 
-  .service-cat1 {
-    margin-left: 5%;
-  } */
-
-  .service-trap a {
-    margin-left: 15%;
-  }
 
   .news {
     height: 400px;
@@ -659,21 +622,22 @@ select {
   }
 
   .blog-last a {
-    margin-left: 15%;
+    margin: 0 15%;
   }
 
   .blog-wrap {
     flex-wrap: wrap;
+    align-items: center;
   }
   
   .blog-kind1, .blog-kind2, .blog-kind3 {
     align-items: center;
-    margin-right: 20%;
+    margin-right: 23%;
     width: 100%;
   }
 
   .blog-kind1 img, .blog-kind2 img, .blog-kind3 img {
-    width: 20em;
+    width: 21em;
   }
 
   .blog-kind1 h3, .blog-kind2 h3, .blog-kind3 h3 {

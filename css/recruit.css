@@ -271,18 +271,22 @@ select {
   margin: 20px 0;
 }
 
+.recruit-date {
+  width: 60%;
+}
+
 .recruit-date th {
   border: 1px solid #000;
   background-color: rgb(240, 240, 240);
   text-align: center;
-  padding: 10px 100px;
+  padding: 10px 0;
 }
 
 .recruit-date td {
   border: 1px solid #000;
   padding-left: 10px;
   /* padding-right: 90px; */
-  width: 67%;
+  /* width: 67%; */
 }
 
 

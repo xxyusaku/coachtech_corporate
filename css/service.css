@@ -414,8 +414,15 @@ select {
     margin-top: 40%;
   }
 
+  
   .service {
     height: auto;
+  }
+
+  .service-wrap {
+    width: 100%;
+    text-align: left;
+    margin-left: 5%;
   }
 
   .service-img {
@@ -426,6 +433,7 @@ select {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: left;
   }
 
   .service-item {
