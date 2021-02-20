@@ -200,7 +200,7 @@ select {
   z-index: 100;
   width: 100%;
   background-color: white;
-  margin-top: 15%;
+  top: 0;
 }
 
 .header-wrap {
@@ -240,12 +240,17 @@ select {
   margin-top: -15%;
 }
 
+.service-wrap {
+  padding: 30px 10px;
+}
+
+
 .eyecatch h1 {
   text-align: center;
-  padding-top: 25%;
   color: white;
   font-size: 30px;
   font-weight: bold;
+  padding: 25% 0;
 }
 
 .service {
@@ -358,6 +363,7 @@ select {
 @media screen and (max-width: 768px) {
     .header {
     z-index: 50;
+    top: 0;
   }
 
   .header-nav {
@@ -406,7 +412,11 @@ select {
     height: 200px;
     background-size: cover;
     position: relative;
-    top: 50%;
+    margin-top: 20%;
+  }
+
+  .eyecatch-wrap {
+
   }
 
   /* .eyecatch h1 {
@@ -416,8 +426,8 @@ select {
     align-items: center;
   } */
 
-  .eyecatch-wrap {
-    display: flexbox;
+  .eyecatch-wrap h1 {
+    align-content: center;
   }
 
   
