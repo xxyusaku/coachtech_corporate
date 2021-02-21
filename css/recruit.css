@@ -424,21 +424,27 @@ select {
 
 .recruit {
   width: 100%;
+  position: relative;
 }
 
 .recruit-wrap {
   margin-top: 10%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
   .recruit-list {
-    margin-right: 15%;
+    position: absolute;
+    /* margin-right: 15%;
     margin-left: -25%;
-    width: 110%;
-    margin-top: 10%;
+    width: 150%;
+    margin-top: 10%; */
   }
 
   .recruit-date th {
-    width: 30%;
     padding: 10px 10px;
   }
 

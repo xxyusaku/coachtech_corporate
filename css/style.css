@@ -645,13 +645,16 @@ select {
   }
 
   .blog-wrap {
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    padding-left: 6%;
   }
   
   .blog-kind1, .blog-kind2, .blog-kind3 {
-    align-items: center;
-    margin-right: 23%;
+    /* align-items: center;
+    margin-right: 23%; */
     width: 100%;
   }
 
