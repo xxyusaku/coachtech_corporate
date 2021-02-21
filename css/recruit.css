@@ -197,10 +197,10 @@ select {
 .header {
   height: 70px;
   position: fixed;
-  z-index: 100;
+  z-index: 30;
   width: 100%;
   background-color: white;
-  margin-top: 15%;
+  top: 0;
 }
 
 .header-wrap {
@@ -232,20 +232,23 @@ select {
 }
 
 .eyecatch {
-  height: 66vh;
-  width: 100%;
-  background: url(../img/mv.png);
-  background-size: cover;
-  padding-top: 30px;
-  margin-top: -15%;
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 .eyecatch h1 {
-  text-align: center;
-  padding-top: 25%;
+  position: absolute;
   color: white;
   font-size: 30px;
-  font-weight: bold;
+  
+}
+
+.eyecatch img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
 }
 
 .recruit-wrap {
