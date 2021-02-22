@@ -266,20 +266,18 @@ select {
 .blog-item {
   width: 30%;
   margin: 0 auto;
-  padding: 20px 0;
 }
 
 .blog-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   padding: 20px 0;
 }
 
 .blog a {
   color: #000;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .blog a:hover {

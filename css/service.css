@@ -254,36 +254,40 @@ select {
 
 .service {
   width: 100%;
+  height: auto;
 }
 
 .service-img {
   width: 25%;
+  height: auto;
 }
 
 .service-wrap {
-  width: 100%;
-  margin-left: 20%;
+  margin-left: 15%;
   margin-top: 5%;
+  width: 70%;;
+  height: auto;
 }
 
 .service-item {
-  border-top: 1px solid #000;
+  display: flex;
+  justify-content: left;
+  border-bottom: 1px solid #000;
   padding: 20px 0;
-  width: 65%;
+  width: 100%;
 }
 
 .service-item1 {
-  border-top: 1px solid #000;
+  display: flex;
+  justify-content: left;
   border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
   padding: 20px 0;
-  width: 65%;
+  width: 100%;
 }
 
 .service-demo {
-  display: inline-block;
-  position: absolute;
-  width: 44%;
-  margin-left: 3%;
+  margin-left: 5%;
 }
 
 .service-demo h2 {
@@ -412,37 +416,33 @@ select {
   }
 
   .service {
-    height: 100em;
+    height: auto;
+    width: 100%;
   }
 
   .service-img {
     width: 100%;
+    height: auto;
+  }
+
+  .service{
+    width: 100%;
   }
 
   .service-wrap {
-    margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 30%;
+    margin-left: 5%;
+    width: 90%;
   }
 
-  .service-demo {
-    display: block;
+  .service-item1,
+  .service-item {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
-    margin-left: 0;
-  }  
-
-  .service-item,
-  .service-item1 {
-    padding-bottom: 40%;
-    width: 80%;
   }
-
-  .service-item1 h2,
-  .service-item1 p,
-  .service-item p,
-  .service-item h2 {
-    width: 80%;
-  }
-
 
   .contact p {
     width: 85%;
